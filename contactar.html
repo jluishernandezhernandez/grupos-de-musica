@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-< lang="es">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <title>Grupos de música rock y pop</title>
-    <link href='http://fonts.googleapis.com/css?family=Ribeye+Marrow|Expletus+Sans' rel='stylesheet' type='text/css'>
+    <!--<link href='http://fonts.googleapis.com/css?family=Ribeye+Marrow|Expletus+Sans' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/estilos.css">
 </head>
 
 <body>
-    <header>
+     <div class="contenedor">
+       <header>
         <div class="centrado">
-            <nav>
-                <ul>
+            <img class="logo" src="images/logotipo.png" alt="Grupos de música rock y pop">
+               <nav>
+                <ul id="nav">
                     <li><a href="index.html">Inicio</a>
                     </li>
                     <li><a href="grupos-musica.html">Grupos de Música</a>
@@ -22,15 +24,16 @@
                     </li>
                 </ul>
             </nav>
-            <img class="logo" src="images/logotipo.png" alt="Grupos de música rock y pop">
+            
         </div>
     </header>
+    
     <div class="centrado fondogris">
         <section>
             <h1>Contactar</h1>
             <p>Si quieres que demos de alta a tu grupo de música, rellena el siguiente formulario. Gracias.</p>
             <div id="contacto">
-                <form action="">
+                <form action="#">
                     <label for="nombre">Nombre</label>
                     <input type="text" name="nombre" id="nombre">
                     <label for="edad">Edad</label>
@@ -64,7 +67,7 @@
         </section>
 
     </div>
-
+    </div>
 </body>
 
 </html>

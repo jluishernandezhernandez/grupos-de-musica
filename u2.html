@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Grupos de música rock y pop</title>
-    <link href='http://fonts.googleapis.com/css?family=Ribeye+Marrow|Expletus+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ribeye+Marrow|Expletus+Sans' rel='stylesheet' type='text/css'> 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/estilos.css">
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 
 <body>
-    <header>
+<div class="contenedor">
+       <header>
         <div class="centrado">
-            <nav>
-                <ul>
+            <img class="logo" src="images/logotipo.png" alt="Grupos de música rock y pop">
+               <nav>
+                <ul id="nav">
                     <li><a href="index.html">Inicio</a>
                     </li>
                     <li><a href="grupos-musica.html">Grupos de Música</a>
@@ -21,29 +24,35 @@
                     </li>
                 </ul>
             </nav>
-            <img class="logo" src="images/logotipo.png" alt="Grupos de música rock y pop">
+            
         </div>
     </header>
-    <div class="centrado fondogris">
-
+    
+    <div class="biografia">
         <h1>U2</h1>
 
         <h2>Biografía</h2>
 
-        <p>U2 es una banda de de rock perteneciente a la "New Wave", y originaria de Dublín (Irlanda). Sus letras, a menudo ordenadas con imágenes espirituales, se centran en temas personales y temática de justicia social y paz. U2 se formó en la Mount Temple Comprehensive School, cuando sus miembros iniciales eran adolescentes y tenían un limitado conocimiento musical. Al cabo de cuatro años, firmaron su primer contrato discográfico con Island Records y lanzaron su álbum debut, Boy. A mediados de los años ochenta, la banda pasó a ser conocida mundialmente. Tuvieron más éxito como artistas en vivo que como artistas comerciales por lo que a venta de álbumes se refiere, hasta su álbum de 1987 que los catapulto a la fama, The Joshua Tree, el cual según la revista Rolling Stone, elevó a la banda «de héroes a superestrellas».</p>
-
+        <p>U2 es una banda de de rock perteneciente a la "New Wave", y originaria de Dublín                 (Irlanda). Sus letras, a menudo ordenadas con imágenes espirituales, se centran en temas             personales y temática de justicia social y paz. U2 se formó en la Mount Temple                     Comprehensive School, cuando sus miembros iniciales eran adolescentes y tenían un                 limitado conocimiento musical. Al cabo de cuatro años, firmaron su primer contrato                 discográfico con Island Records y lanzaron su álbum debut, Boy. A mediados de los años             ochenta, la banda pasó a ser conocida mundialmente. Tuvieron más éxito como artistas                en vivo que como artistas comerciales por lo que a venta de álbumes se refiere,                 hasta su álbum de 1987 que los catapulto a la fama, The Joshua Tree, el cual según la             revista Rolling Stone, elevó a la banda «de héroes a superestrellas».
+        </p>
+    </div>
+       
+    <div class="cantantes"> 
         <h2>Miembros</h2>
-
-        <ul class="cantantes">
-            <li><img src="images/bono.jpg" alt="Paul Hewson: Bono">Paul Hewson (1960), más conocido como <a href="http://www.u2.com" target="_blank">Bono</a>
+        
+        <ul >
+            <li><img src="images/bono.jpg" alt="Paul Hewson: Bono"><p>Paul Hewson (1960), más                                 conocido como <a href="http://www.u2.com" target="_blank">Bono</a></p>
             </li>
-            <li><img src="images/the-edge.jpg" alt="David Evans: The Edge">David Evans (1961), conocido como The Edge</li>
-            <li><img src="images/adam-clayton.jpg" alt="">Adam Clayton (1960)</li>
-            <li><img src="images/larry-mullen-jr.jpg" alt="Larry Mullen Jr.">Larry Mullen Jr. (1961).</li>
+            <li><img src="images/the-edge.jpg" alt="David Evans: The Edge"><p>David Evans (1961),                             conocido como The Edge</li></p>
+        <li><img src="images/adam-clayton.jpg" alt=""><p>Adam Clayton (1960)</p></li>
+            <li><img src="images/larry-mullen-jr.jpg" alt="Larry Mullen Jr."><p>Larry Mullen Jr.                             (1961).</p>
+            </li>
         </ul>
-
+    </div>
+        
+    <div class="discografia">
+        
         <h2>Discografía</h2>
-
         <ul>
             <li>Three EP (1979)</li>
             <li>Boy (1980)</li>
@@ -60,7 +69,9 @@
             <li>No Line on the Horizon (2009)</li>
             <li>Songs of Innocence (2014)</li>
         </ul>
-
+     </div>
+      
+    <div class="lista_canciones">
         <h3>Lista de Canciones de su último album</h3>
 
         <p>CD1</p>
@@ -91,16 +102,19 @@
             <li>The Troubles (Alternative Version)</li>
             <li>Sleep Like A Baby Tonight (Alternative Perspective Mix by Tchad Blake)</li>
         </ol>
-         <h3>Tour 2015</h3>
+    </div>
+            
+        <div class="tour">
+            <h3>Tour 2015</h3>
 
             <ul>
                 <li><time datetime="2015-10-05">5 de octubre de 2015</time>
-                    <br><span class="lugar">Barcelona, Palau Sant Jordi</span></li>
+                    <span class="lugar">Barcelona, Palau Sant Jordi</span></li><br>
                 <li><time datetime="2015-10-06">6 de octubre de 2015</time>
-                    <br> <span class="lugar">Barcelona, Palau Sant Jordi</span></li>
+                     <span class="lugar">Barcelona, Palau Sant Jordi</span></li>
             </ul>
-
     </div>
+</div>
 
 </body>
 
