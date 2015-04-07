@@ -213,6 +213,30 @@ input[type=checkbox], input[type=radio], label[for=hombre], label[for=mujer], la
 }
 
 
+.multimedia {
+
+width: 100%;
+}
+
+.cantantes{
+
+    width: 50%;
+    float: right;
+
+}
+
+
+
+.video {
+
+ 
+background-color: aqua;
+width: 50%;
+}
+
+video{
+
+}
 
 /*MEDIA QUERIES PARA HACER RESPONSIVO EL SITIO WEB*/
 @media screen and (max-width: 800px){
@@ -254,5 +278,17 @@ input[type=submit], input[type=reset]{
    
      float: none;
      width: 90%;
- 
  }
+    
+    .cantantes{
+
+    width: 100%;
+    float: right;
+}
+    
+    .video {
+
+ 
+background-color: aqua;
+width: 100%;
+}
