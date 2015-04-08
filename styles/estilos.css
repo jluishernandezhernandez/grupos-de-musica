@@ -6,6 +6,7 @@
 }
 /*AQUI VA EL CSS COMUN PARA TODAS LAS PAGINAS*/
 body {
+    background: #0d1424 url(/images/degradado-fondo.jpg) repeat  ;
     font-size: 62.5%;
     background-color: darkgray;
   
@@ -122,14 +123,14 @@ logo  {
     
     width: 100%;
     height: auto;
-    background-color: darkkhaki;
+    /*background-color: darkkhaki;*/
    
 }
 .cantantes{
     
     width: 100%;
     height: auto;
-    background-color: aqua;
+    /*background-color: aqua;*/
     }
 
 .cantantes ul li  {
@@ -149,7 +150,7 @@ logo  {
 }
 
 .discografia {
-    background-color: orange;
+    /*background-color: orange;*/
     width: 100%;
     height: auto;
     }
@@ -159,12 +160,14 @@ logo  {
 .lista_canciones {
     width: 100%;
     height: auto;
-    background-color: coral
+    /*background-color: coral*/
   }
 .lista_canciones ol li {
     list-style: none;
 }
-
+h3 {
+   background-color: dimgrey;
+  }
 .tour ul li{
     list-style: none;
     
@@ -172,7 +175,7 @@ logo  {
 .tour {
     width: 100%;
     height: auto;
-    background-color: beige;
+    /*background-color: beige;*/
     text-align: left;
 }
 
@@ -186,7 +189,7 @@ logo  {
 
     form {
         width: 100%;
-        background: #fff888;
+        /*background: #fff888;*/
 
     
     }
@@ -214,15 +217,16 @@ input[type=checkbox], input[type=radio], label[for=hombre], label[for=mujer], la
 
 
 .multimedia {
-
 width: 100%;
+ 
 }
 
 .cantantes{
 
     width: 50%;
     float: right;
-
+    height: 100%;
+   
 }
 
 
@@ -230,7 +234,7 @@ width: 100%;
 .video {
 
  
-background-color: aqua;
+/*background-color: aqua;*/
 width: 50%;
 }
 
@@ -289,6 +293,6 @@ input[type=submit], input[type=reset]{
     .video {
 
  
-background-color: aqua;
+/*background-color: aqua;*/
 width: 100%;
 }
